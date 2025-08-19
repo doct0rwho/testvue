@@ -16,19 +16,19 @@
       <tbody>
         <tr>
           <td>Pair</td>
-          <td>x1</td>
+          <td>x0.9</td>
         </tr>
         <tr>
           <td>4+2</td>
-          <td>x2</td>
-        </tr>
-        <tr>
-          <td>Yahtzee</td>
           <td>x3</td>
         </tr>
         <tr>
+          <td>Yahtzee</td>
+          <td>x8</td>
+        </tr>
+        <tr>
           <td>Three Pairs</td>
-          <td>x4</td>
+          <td>x2</td>
         </tr>
         <tr>
           <td>Other</td>

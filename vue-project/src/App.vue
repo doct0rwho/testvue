@@ -39,7 +39,7 @@
 
     <div class="bet">
       <input v-model.number="bet" type="number" min="1" />
-      <button class="btn-roll" @click="roll" :disabled="rolling || bet <= 0">ROLL</button>
+      <button class="btn-roll" @click="roll" :disabled="rolling || bet <= 0 || bet > balance">ROLL</button>
       <button class="btn-reset" @click="reset" :disabled="rolling">RESET</button>
     </div>
 
@@ -201,10 +201,10 @@ button:disabled {
 .dice {
   margin-top: 20px;
   display: flex;
-  gap: 10px; /* відстань між кубиками */
-  justify-content: center; /* або left/right якщо треба вирівняти */
+  gap: 10px; 
+  justify-content: center; 
   align-items: center;
-  flex-wrap: nowrap; /* щоб точно не переносились */
+  flex-wrap: nowrap; 
 }
 
 .die {
